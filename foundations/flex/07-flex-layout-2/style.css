@@ -17,7 +17,7 @@ body {
   font-weight: 900;
   display: flex;
   align-items: center;
-  padding: 16px;
+  padding: 0 16px;
 }
 
 .container {
@@ -51,6 +51,10 @@ ul {
   margin: 0;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -58,7 +62,7 @@ a {
 
 .cards {
   display: flex;
-  flex-wrap: row wrap;
+  flex-wrap: wrap;
   padding: 48px;
   gap: 30px;
 }
@@ -68,8 +72,8 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 
-  display: inline;
-
+  width: 250px;
+  padding: 10px;
 }
 
 /*
